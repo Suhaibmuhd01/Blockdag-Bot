@@ -1,40 +1,52 @@
-## Dictionary in List
+#  BlockDAG MarketVision Bot
 
+An **AI-powered tool for market forecasting and BlockDAG wallet management** — built for the **BlockDAG Hackathon**.
 
+BlockDAG MarketVision integrates real-time **crypto market analysis**, **AI predictions**, and **BlockDAG blockchain management** into one powerful Telegram bot.  
+It’s not just about signals — it’s about **data-driven decisions, simplified wallet management, and an all-in-one experience for crypto users.**
 
-# Instructions
+---
 
-You are going to write a program that adds to a `travel_log`. You can see a travel_log which is a **List** that contains 2 **Dictionaries**. 
+##  Key Features
 
-Write a function that will work with the following line of code on line 21 to add the entry for Russia to the `travel_log`. 
+### 📊 Market Forecast & AI Signals
+- Real-time analysis of the **top 100 USDT pairs**.
+- **10+ technical indicators** including RSI, MACD, EMA, Bollinger Bands, ADX, Fibonacci levels, Ichimoku Cloud, and more.
+- **Multi-timeframe analysis** (1H, 4H, Daily).
+- News sentiment analysis from **Twitter (X), Reddit, CryptoPanic, CoinDesk, CoinTelegraph, NewsAPI**.
+- AI-powered predictions using **DeepSeek**, delivering **top 3 trading signals with confidence scores**.
+- Signals delivered instantly to Telegram.
 
-```
-add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
-```
+### 💎 BlockDAG Wallet & Ecosystem
+- Buy BDAG tokens directly from the bot.
+- Mine BDAG with both **mobile & hardware miners**.
+- Connect MetaMask wallet securely with **QR code or link**.
+- Check balances and transaction history instantly.
+- Stake BDAG with **12% APY** and claim rewards.
+- Run automated **daily earning routines** (mobile mining, token mining, staking, presale claims).
+- Portfolio tracking: balances, staking, mining stats, and more.
 
-> `You've visited Russia 2 times.`
+###  Why This Matters
+- Telegram has **900M+ active users**, with **30–40% of crypto communities active on the platform**.
+- Our bot makes it easy for **newcomers** and **advanced traders** to join the BlockDAG ecosystem.
+- Combines **prediction + blockchain utility** in one place — no switching apps or platforms.
 
-> `You've been to Moscow and Saint Petersburg.`
+---
 
-**DO NOT** modify the `travel_log` directly. You need to create a function that modifies it. 
+## 🛠 Tech Stack
+- **Python 3**
+- **Telegram Bot API**
+- **Flask** (for MetaMask web connection)
+- **Web3.py** (BlockDAG RPC integration)
+- **DeepSeek AI** (market/news intelligence)
+- **Crypto APIs** (CoinGecko, Binance, CryptoPanic, Reddit, etc.)
+- **Qrcode + PIL** (for wallet QR generation)
 
-# Hint
+---
 
-1. Look at the function call above to see what the name of the function should be.
+## 📥 Installation
 
-2. The inputs for the function are positional arguments. The order is very important.
-
-3. Feel free to choose your own parameter names.
-
-# Test Your Code
-
-Before checking the solution, try copy-pasting your code into this repl: 
-
-[https://repl.it/@appbrewery/day-9-2-test-your-code](https://repl.it/@appbrewery/day-9-2-test-your-code)
-
-This repl includes my testing code that will check if your code meets this assignment's objectives. 
-
-
-# Solution
-
-[https://repl.it/@appbrewery/day-9-2-solution](https://repl.it/@appbrewery/day-9-2-solution)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/BlockDAG-MarketVision.git
+   cd BlockDAG-MarketVision
