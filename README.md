@@ -12,7 +12,7 @@ It’s not just about signals — it’s about **data-driven decisions, simplifi
 ### 📊 Market Forecast & AI Signals
 - Real-time analysis of the **top 100 USDT pairs**.
 - **10+ technical indicators** including RSI, MACD, EMA, Bollinger Bands, ADX, Fibonacci levels, Ichimoku Cloud, and more.
-- **Multi-timeframe analysis** (1H, 4H, Daily).
+- **Multi-timeframe analysis** (1M, 30M, 1H, 4H, Daily).
 - News sentiment analysis from **Twitter (X), Reddit, CryptoPanic, CoinDesk, CoinTelegraph, NewsAPI**.
 - AI-powered predictions using **DeepSeek**, delivering **top 3 trading signals with confidence scores**.
 - Signals delivered instantly to Telegram.
@@ -29,7 +29,7 @@ It’s not just about signals — it’s about **data-driven decisions, simplifi
 ###  Why This Matters
 - Telegram has **900M+ active users**, with **30–40% of crypto communities active on the platform**.
 - Our bot makes it easy for **newcomers** and **advanced traders** to join the BlockDAG ecosystem.
-- Combines **prediction + blockchain utility** in one place — no switching apps or platforms.
+- Combines **prediction + blockchain utility** in one place no switching apps or platforms.
 
 ---
 
@@ -48,5 +48,5 @@ It’s not just about signals — it’s about **data-driven decisions, simplifi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/BlockDAG-MarketVision.git
+   git clone https://github.com/suhaibmuhd01/BlockDAG-MarketVision.git
    cd BlockDAG-MarketVision
